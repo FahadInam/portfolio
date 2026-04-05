@@ -55,11 +55,11 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/fahadinam/",
+    url: "https://www.linkedin.com/in/fahad-inam-65aa47280/",
   },
   {
     name: "github",
-    url: "https://github.com/fahadinam",
+    url: "https://github.com/FahadInam",
   },
 ];
 
@@ -95,7 +95,7 @@ export const PROJECTS = [
     imageKey: "21c-digital",
     description: "AI-driven maths education platform for UK schools",
     gradient: ["#4F46E5", "#7C3AED"],
-    url: null,
+    url: "https://www.21c.digital/",
     tech: ["react", "nextjs", "tailwindcss"],
   },
   {
@@ -103,7 +103,7 @@ export const PROJECTS = [
     imageKey: "shupavu-games",
     description: "Educational gaming platform for Kenyan students",
     gradient: ["#059669", "#34D399"],
-    url: null,
+    url: "https://shupavugames.com/",
     tech: ["typescript", "tailwindcss"],
   },
   {
@@ -111,23 +111,23 @@ export const PROJECTS = [
     imageKey: "bonzo",
     description: "AI content creation and CMS for educators",
     gradient: ["#2563EB", "#60A5FA"],
-    url: null,
+    url: "https://bonzo.knowledgeplatform.com/",
     tech: ["react", "typescript"],
   },
   {
-    name: "Quranscape",
-    imageKey: "quranscape",
-    description: "Online Quran learning with live classes and tracking",
-    gradient: ["#0F766E", "#2DD4BF"],
-    url: null,
-    tech: ["react", "tailwindcss"],
+    name: "Fleet Legend",
+    imageKey: "fleet-legend",
+    description: "Trucking SaaS for fleet management and dispatch operations",
+    gradient: ["#0F172A", "#334155"],
+    url: "https://www.fleetlegend.com/",
+    tech: ["react", "typescript"],
   },
   {
     name: "AKU-EB Platform",
     imageKey: "aku-eb",
     description: "Exam prep platform for AKU-EB students across Pakistan",
     gradient: ["#7C3AED", "#A78BFA"],
-    url: null,
+    url: "https://akueb.knowledgeplatform.com/login",
     tech: ["react", "typescript"],
   },
   {
@@ -135,7 +135,7 @@ export const PROJECTS = [
     imageKey: "senf",
     description: "Afghanistan's multilingual digital learning platform",
     gradient: ["#DC2626", "#F87171"],
-    url: null,
+    url: "https://senf.af/",
     tech: ["typescript", "tailwindcss"],
   },
   {
@@ -143,7 +143,7 @@ export const PROJECTS = [
     imageKey: "kankor",
     description: "University entrance exam prep for Afghan students",
     gradient: ["#D97706", "#FBBF24"],
-    url: null,
+    url: "https://kankor.af/",
     tech: ["typescript", "tailwindcss"],
   },
   {
@@ -151,7 +151,7 @@ export const PROJECTS = [
     imageKey: "apimio",
     description: "SaaS PIM platform for retail product data management",
     gradient: ["#1E3A5F", "#3B82F6"],
-    url: null,
+    url: "https://apimio.com/",
     tech: ["javascript", "tailwindcss"],
   },
 ];

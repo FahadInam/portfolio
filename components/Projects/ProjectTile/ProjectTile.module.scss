@@ -7,32 +7,24 @@
   @media (min-width: 768px) {
     height: 26rem;
   }
-
-  img {
-    object-fit: cover;
-  }
 }
 
 .projectImage {
-  @apply absolute top-0 rounded-xl shadow-xl;
+  @apply absolute rounded-3xl;
 
-  width: 17rem !important;
-  max-width: 17rem !important;
-  transform: rotate(-22.5deg);
-  height: unset !important;
-  min-width: unset !important;
-  max-height: unset !important;
-  object-fit: contain !important;
-  left: unset !important;
-  right: 2rem !important;
-  bottom: unset !important;
-  clip-path: inset(0);
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: cover !important;
+  transform: none;
   z-index: 0;
-
-  @media (max-width: 480px) {
-    width: clamp(12rem, 40vw, 16rem) !important;
-    right: clamp(-2rem, 2vw, 1.5rem) !important;
-  }
+  opacity: 1;
 }
 
 .techIcons {

@@ -44,58 +44,41 @@ const ProjectTile = ({ project, classes, isDesktop }) => {
     >
       <div
         ref={projectCard}
-        className={`${styles.projectTile} rounded-3xl relative p-6 flex flex-col justify-between max-w-full`}
-        style={{
-          background: `linear-gradient(90deg, ${gradient[0]} 0%, ${gradient[1]} 100%)`,
-        }}
+        className={`${styles.projectTile} rounded-3xl relative max-w-full overflow-hidden`}
       >
-        <Image
-          src="/project-bg.svg"
-          alt=""
-          className="absolute w-full h-full top-0 left-0 opacity-20 rounded-3xl"
-          fill
-        />
         <Image
           src={image}
           alt={name}
           fill
           className={styles.projectImage}
         />
-        {!isDesktop && (
-          <div
-            className="absolute bottom-0 left-0 w-full h-20"
-            style={{
-              background: `linear-gradient(0deg, ${gradient[0]} 10%, rgba(0,0,0,0) 100%)`,
-            }}
-          />
-        )}
+        {/* dark gradient overlay at bottom */}
+        <div
+          className="absolute bottom-0 left-0 w-full h-2/3 z-10 rounded-b-3xl"
+          style={{
+            background:
+              "linear-gradient(to top, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.5) 55%, transparent 100%)",
+          }}
+        />
+        {/* title top-left */}
         <h3
-          className="font-medium text-2xl sm:text-3xl z-10 pl-2 pt-2 transform-gpu"
-          style={{ transform: "translateZ(3rem)" }}
+          className="absolute top-4 left-5 font-semibold text-sm z-20 transform-gpu px-3 py-1 rounded-full"
+          style={{
+            transform: "translateZ(3rem)",
+            background: "rgba(10,10,10,0.75)",
+            color: "#c4b5fd",
+            backdropFilter: "blur(6px)",
+          }}
         >
           {name}
         </h3>
-        <div
-          className={`
-            ${styles.techIcons} w-1/2 h-full absolute left-24 top-0 sm:flex items-center hidden
-          `}
-        >
-          <div className="flex flex-col pb-8">
-            {tech.map((el, i) => (
-              <Image
-                className={`${i % 2 === 0 && "ml-16"} mb-4`}
-                src={`/projects/tech/${el}.svg`}
-                alt={el}
-                height={45}
-                width={45}
-                key={el}
-              />
-            ))}
-          </div>
-        </div>
+        {/* description pinned to bottom */}
         <p
-          className="text-lg z-10 tracking-wide font-medium text-white transform-gpu"
-          style={{ transform: "translateZ(0.8rem)" }}
+          className="absolute bottom-5 left-5 right-5 text-sm sm:text-base z-20 tracking-wide font-medium transform-gpu"
+          style={{
+            transform: "translateZ(0.8rem)",
+            color: "rgba(200,200,200,0.9)",
+          }}
         >
           {description}
         </p>
