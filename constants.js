@@ -59,7 +59,7 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/fahad-inam-65aa47280/",
+    url: "https://www.linkedin.com/in/fahadinam/",
   },
   {
     name: "github",
