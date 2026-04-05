@@ -92,7 +92,7 @@ const Work = ({ isDesktop }) => {
               Experience
             </h2>
             <p className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 staggered-reveal">
-              A quick recap of where I&apos;ve worked.{" "}
+              4+ years of shipping features, leading teams, and scaling products.{" "}
             </p>
           </div>
           <Tabs tabItems={tabItems} />

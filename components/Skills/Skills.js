@@ -55,8 +55,8 @@ const Skills = () => {
               My Skills
             </h2>
             <p className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 staggered-reveal">
-              Strong frontend expertise in React.js, Next.js, and SvelteKit,
-              combined with backend proficiency in Node.js and PostgreSQL.{" "}
+              Technologies I use to build production-grade applications
+              — from frontend to backend to deployment.{" "}
             </p>
           </div>
           <div className="mt-10">
@@ -110,7 +110,7 @@ const Skills = () => {
             </div>
             <div className="staggered-reveal">
               <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4">
-                Other
+                Testing & Quality
               </h3>
               <div className="flex flex-wrap gap-6 transform-gpu">
                 {SKILLS.other.map((skill) => (

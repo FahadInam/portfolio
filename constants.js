@@ -2,16 +2,20 @@ export const METADATA = {
   author: "Fahad Inam",
   title: "Portfolio | Fahad Inam",
   description:
-    "Fahad Inam is a Full Stack Developer with 4+ years of experience building scalable web applications across EdTech and SaaS.",
+    "Fahad Inam is a Full Stack Developer with 4+ years of experience building scalable, production-grade web applications.",
   siteUrl: "",
   twitterHandle: "",
   keywords: [
     "Fahad Inam",
     "Full Stack Developer",
     "Frontend Developer",
+    "Backend Developer",
     "React Developer",
     "Next.js Developer",
+    "Node.js Developer",
+    "TypeScript",
     "Software Engineer",
+    "Web Developer",
     "Portfolio",
   ].join(", "),
   image: "",
@@ -43,9 +47,9 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A Full Stack Developer",
-  "I build scalable web applications",
-  "I deliver end-to-end features across the stack",
+  "I build full stack web applications",
+  "I turn ideas into scalable products",
+  "I craft seamless user experiences with robust backends",
 ];
 
 export const SOCIAL_LINKS = [

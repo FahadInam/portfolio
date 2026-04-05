@@ -41,7 +41,7 @@ const About2 = ({ clientHeight }) => {
           ref={quoteRef}
           className="font-medium text-[2.70rem] md:text-6xl lg:text-[4rem] text-center"
         >
-          I have a{" "}
+          I ship{" "}
           <span
             className="about-3 font-bold"
             style={{
@@ -52,9 +52,9 @@ const About2 = ({ clientHeight }) => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            strong
+            end-to-end
           </span>{" "}
-          obsession for attention to detail.
+          — from frontend to backend to deployment.
         </h2>
       </div>
     </section>
